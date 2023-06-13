@@ -1,6 +1,6 @@
 const ThankYou = () => {
   return (
-    <div className="h-[380px] w-[350px] z-10 md:h-[400px] rounded-lg md:w-[450px] md:ml-5 bg-White absolute top-[132px] left-[80px] md:top-[70px] md:left-[600px]">
+    <div className="h-[380px] w-[350px] z-10 md:h-[400px] rounded-lg md:w-[450px] md:ml-5 bg-White absolute top-[132px] left-[50px] md:top-[70px] md:left-[600px]">
       <div>
         <img
           src="./images/icon-thank-you.svg"
