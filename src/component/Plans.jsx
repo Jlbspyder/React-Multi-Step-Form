@@ -142,7 +142,7 @@ const Plans = () => {
         )}
         {!monthly ? (
           <div
-            className="absolute top-[472px] right-[40.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute top-[472px] right-[30.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
@@ -161,7 +161,7 @@ const Plans = () => {
           ></div>
         ) : (
           <div
-            className="absolute top-[472px] right-[35.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute top-[472px] right-[45.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
