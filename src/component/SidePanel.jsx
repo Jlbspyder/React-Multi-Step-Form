@@ -1,6 +1,6 @@
 const SidePanel = ({ stepone, steptwo, stepthree, stepfour }) => {
   return (
-    <section  className="container mx-auto my-3 md:block md:bg-White md:rounded-xl w-[1100px]">
+    <section  className="container mx-auto my-3 md:block md:bg-White md:rounded-xl">
       <img
         src="./images/bg-sidebar-desktop.svg"
         alt="bg"

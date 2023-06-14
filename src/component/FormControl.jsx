@@ -48,7 +48,7 @@ const FormControl = () => {
     if (!values.number) {
       errors.number = "This field is required";
     } else if (!Regex.test(values.number)) {
-      errors.number = "Please insert a postcode";
+      errors.number = "Please insert a valid number";
     }
     return errors;
   };
