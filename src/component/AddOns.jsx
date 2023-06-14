@@ -40,10 +40,10 @@ const AddOns = () => {
   return (
     <div className="md:absolute bg-White mt-[115px] ml-8 rounded-lg pt-1 md:mt-32 w-[350px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
       <div className="pb-5 flex flex-col mt-[30px] md:mt-0">
-        <div className="text-3xl md:text-4xl ml-3 md:ml-1 text-MarineBlue font-bold text-left">
+        <div className="text-3xl md:text-4xl ml-3 md:ml-3 text-MarineBlue font-bold text-left">
           Pick add-ons
         </div>
-        <div className="text-md text-CoolGray ml-3 mt-3 md:ml-1 text-left">
+        <div className="text-md text-CoolGray ml-3 mt-3 md:ml-3 text-left">
           Add-ons help you enhance your gaming experience.
         </div>
         <div className="flex flex-col space-y-5 mt-8 md:mt-12">
