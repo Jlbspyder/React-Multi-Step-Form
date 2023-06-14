@@ -66,7 +66,7 @@ const Plans = () => {
 
   return (
     <>
-      <div className="md:absolute bg-White bg-White mt-[135px] w-96 ml-5 rounded-lg pt-1 md:mt-32 w-[450px] md:h-[100px] md:top-[0] md:left-[520px]">
+      <div className="md:absolute bg-White bg-White mt-[105px] ml-3 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:top-[0] md:left-[520px]">
         <div className="mt-[40px] ml-[30px] md:-mt-16 md:ml-5 md:flex flex-col">
           <div className="text-3xl md:text-4xl text-MarineBlue font-bold text-left">
             Select your plan
@@ -83,8 +83,8 @@ const Plans = () => {
                 htmlFor={plan.name}
                 className={
                   plan.name === customerInfo.plan.planName
-                    ? "w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-PurplishBlue-300 border-[1px] border-PurplishBlue cursor-pointer flex md:flex-col bg-Magnolia space-y-12 hover:border-PurplishBlue"
-                    : "w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-slate-300 border-[1px] border-CoolGray cursor-pointer flex md:flex-col hover:bg-Alabaster space-y-12 hover:border-PurplishBlue"
+                    ? "w-[300px] md:w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-PurplishBlue-300 border-[1px] border-PurplishBlue cursor-pointer flex md:flex-col bg-Magnolia space-y-12 hover:border-PurplishBlue"
+                    : "w-[300px] md:w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-slate-300 border-[1px] border-CoolGray cursor-pointer flex md:flex-col hover:bg-Alabaster space-y-12 hover:border-PurplishBlue"
                 }
               >
                 <img
@@ -142,26 +142,26 @@ const Plans = () => {
         )}
         {monthly ? (
           <div
-            className="absolute top-[472px] right-[45.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute top-[472px] right-[50.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         ) : (
           <div
-            className="absolute hidden top-[472px] right-[45.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute hidden top-[472px] right-[50.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         )}
         {monthly ? (
           <div
-            className="hidden absolute top-[472px] right-[49%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="hidden absolute top-[472px] right-[45.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         ) : (
           <div
-            className="absolute top-[472px] right-[49%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute top-[472px] right-[45.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>

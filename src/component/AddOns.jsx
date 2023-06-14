@@ -38,7 +38,7 @@ const AddOns = () => {
   };
 
   return (
-    <div className="md:absolute bg-White mt-[130px] w-[450px] md:mt-5 pl-5 pb-3 pt-1 ml-[20px] rounded-lg md:top-[40px] md:left-[500px]">
+    <div className="md:absolute bg-White mt-[105px] ml-3 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
       <div className="pb-5 flex flex-col mt-[30px] md:mt-0">
         <div className="text-3xl md:text-4xl ml-3 md:ml-1 text-MarineBlue font-bold text-left">
           Pick add-ons
@@ -46,7 +46,7 @@ const AddOns = () => {
         <div className="text-md text-CoolGray ml-3 mt-3 md:ml-1 text-left">
           Add-ons help you enhance your gaming experience.
         </div>
-        <div className="flex flex-col space-y-5 mt-12">
+        <div className="flex flex-col space-y-5 mt-8 md:mt-12">
           {addOns.map((addOn) => (
             <label
               key={addOn.name}
@@ -66,20 +66,20 @@ const AddOns = () => {
                   onChange={(e) => handleChange(e)}
                 />
                 <div className="flex flex-row">
-                  <div className="flex flex-col mt-5 mr-[20px] ">
-                    <div className="text-sm text-MarineBlue font-bold">
+                  <div className="flex flex-col mt-5 ml-[20px] md:mr-[70px]  ">
+                    <div className="text-sm text-MarineBlue font-bold md:mr-[30px]">
                       {addOn.name}
-                      <p className="text-CoolGray text-sm font-normal">
+                      <p className="text-CoolGray text-xs md:text-sm font-normal w-[200px]">
                         {addOn.description}
                       </p>
                     </div>
                   </div>
                   {isMonthly ? (
-                    <div className="text-sm mt-7 ml-[100px] pr-3 text-PurplishBlue">
+                    <div className="text-xs md:text-sm mt-7 ml-[5px] mr-14 md:mr-5 text-PurplishBlue">
                       +${addOn.monthlyPrice}/mo
                     </div>
                   ) : (
-                    <div className="text-sm mt-7 ml-[100px] pr-5 text-PurplishBlue">
+                    <div className="text-xs md:text-sm mt-7 ml-[5px] mr-14 md:mr-5 text-PurplishBlue">
                       +${addOn.yearlyPrice}/yr
                     </div>
                   )}

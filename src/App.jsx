@@ -4,7 +4,7 @@ import { FormContextProvider } from './FormContext'
 function App() {
     return (
   <FormContextProvider>    
-    <div>
+    <div className='container'>
       <FormControl />
     </div>
   </FormContextProvider>

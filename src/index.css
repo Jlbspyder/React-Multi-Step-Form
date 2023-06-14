@@ -8,7 +8,9 @@ body {
   font-size: 16px;
   position: relative;
   background: hsl(217, 100%, 97%);
-  /* max-width: 100%; */
+}
+.container {
+  margin: auto;
 }
 
 .addon:has(input:checked) {
@@ -27,10 +29,10 @@ a {
   position: absolute;
   bottom: 45px;
   right: 200px;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 .confirm {
-  margin-right: 130px;
+  margin-right: 80px;
 }
 .back {
   position: absolute;
@@ -41,6 +43,7 @@ a {
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  margin-top: 15px;
 }
 .attribution a { 
   color: hsl(228, 81%, 46%); 
@@ -51,10 +54,13 @@ a {
   body {
     background-image: url("../images/bg-sidebar-mobile.svg");
     background-repeat: no-repeat;
-    background-size: 500px;
-    height: 600px;
-    min-height: 100vh;
-    max-width: 100%;
+    background-size: 380px;
+    width: 350px;
+    margin-left: 10px;
+  }
+  .container {
+    margin: auto;
+    max-width: 350px;
   }
 
   .btn {
@@ -63,10 +69,12 @@ a {
     align-items: flex-start;
     justify-content: space-around;
     background: hsl(0, 0%, 100%);
+    top: 100%;
     height: 50px;
-    width: 470px;
+    width: 340px;
     margin-left: 10px;
-    margin-top: 100px;
+    margin-top: 150px;
+
   }
   .thanks {
     display: none;
@@ -78,40 +86,24 @@ a {
 
   .next {
     height: 50px;
-    top: 8px;
-    left: 380px;
+    top: 10px;
+    left: 250px;
   }
   .confirm {
-    left: 360px;
+    left: 250px;
     top: 10px;
   }
   .back {
-    top: 8px;
+    top: 10px;
     left: -180px;
   }
   .review {
     top: 10px;
-    left: -150px;
+    left: -180px;
   }
   .attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    margin-top: 180px;
     display: none;
   }
-  .attribution a { 
-    color: hsl(228, 81%, 46%); 
-  }
 }
-@media (min-width: 960px) {
-  #steps {
-    margin-left: 40px;
-  }
-  .next {
-    position: absolute;
-    bottom: 45px;
-    right: 200px;
-    margin-right: 80px;
-  }
-}
+
 
