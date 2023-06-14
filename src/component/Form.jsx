@@ -2,10 +2,10 @@ const Form = ({ formData, setFormData, errors }) => {
   return (
     <form className="md:absolute bg-White mt-[115px] ml-8 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
     <div className="flex flex-col">
-      <div className="text-3xl mt-8 ml-3 md:-ml-0.5 md:text-4xl md:mt-1 text-MarineBlue font-bold text-left">
+      <div className="text-3xl mt-8 ml-5 md:ml-2 md:text-4xl md:mt-1 text-MarineBlue font-bold text-left">
         Personal info
       </div>
-      <div className="w-[250px] ml-3 md:w-[450px] md:-ml-0.5  text-md text-CoolGray mt-3 text-left">
+      <div className="w-[250px] ml-5 md:w-[450px] md:ml-2  text-md text-CoolGray mt-3 text-left">
         Please provide your name, email address, and phone number.
       </div>
     </div>
