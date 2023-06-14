@@ -166,7 +166,7 @@ const Plans = () => {
             onClick={(e) => changeBilling(e)}
           ></div>
         )}
-        {monthly ? (
+        {!monthly ? (
           <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[60%] md:right-[65%] md:top-[285px] w-[10px] h-[10px] text-CoolGray">
             Monthly
           </div>
@@ -175,7 +175,7 @@ const Plans = () => {
             Monthly
           </div>
         )}
-        {monthly ? (
+        {!monthly ? (
           <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[26%] md:right-[30%] md:top-[285px] w-[10px] h-[10px] text-MarineBlue">
             Yearly
           </div>
