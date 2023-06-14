@@ -35,7 +35,7 @@ const Form = ({ formData, setFormData, errors }) => {
           className={
             errors.name
               ? "bg-White rounded-md w-[90%] md:ml-0 md:w-[440px] ml-2 mt-1 px-30 p-2 md:rounded-md border-StrawberryRed-300 cursor-pointer border-[1px] border-StrawberryRed outline-none focus:border-PurplishBlue"
-              : "bg-White rounded-md w-[90%] md:ml-0 md:w-[440px] ml-2 mt-1 px-30 p-2 md:rounded-md border-slate-300 cursor-pointer border-[1px] border-CoolGray outline-none focus:border-PurplishBlue"
+              : "bg-White rounded-md w-[90%] md:ml-0 md:w-[440px] ml-2 mt-1 px-30 p-2 md:rounded-md border-slate-300 cursor-pointer border-[1px] outline-none focus:border-PurplishBlue"
           }
           placeholder="e.g. Stephen King"
         />
