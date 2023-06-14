@@ -3,7 +3,7 @@ import profile from "../data";
 import { FormContext } from "../FormContext";
 
 const Plans = () => {
-  const [monthly, setMonthly] = useState(true);
+  const [monthly, setMonthly] = useState(false);
   const [yearly, setYearly] = useState(false);
   const { customerInfo, setCustomerInfo } = useContext(FormContext);
   const { isMonthly } = customerInfo;
