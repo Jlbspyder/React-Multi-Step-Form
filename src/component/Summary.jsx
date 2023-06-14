@@ -42,7 +42,7 @@ const Summary = ({ goback }) => {
               </div>
             </div>
           }
-          <div className="absolute bg-LightGray md:top-[170px] md:left-[65px] top-[230px] left-[35px] h-[1px] md:w-[370px] w-[280px]"></div>
+          <div className="absolute bg-LightGray md:top-[170px] md:left-[65px] top-[230px] left-[65px] h-[1px] md:w-[370px] w-[280px]"></div>
           <div className="flex flex-col">
             {customerInfo.addOns.map((item,index) => {
               return (

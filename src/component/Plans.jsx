@@ -131,56 +131,56 @@ const Plans = () => {
         <div className="bg-Alabaster mt-7 w-[100%] h-10 rounded-md"></div>
         {monthly ? (
           <div
-            className="absolute bg-MarineBlue top-[470px] right-[45%] md:right-[40%] md:top-[288px] w-8 h-4
+            className="absolute bg-MarineBlue top-[470px] right-[35%] md:right-[40%] md:top-[288px] w-8 h-4
         rounded-full cursor-pointer "
           ></div>
         ) : (
           <div
-            className="absolute bg-MarineBlue top-[470px] right-[45%] md:right-[40%] md:top-[288px] w-8 h-4
+            className="absolute bg-MarineBlue top-[470px] right-[35%] md:right-[40%] md:top-[288px] w-8 h-4
         rounded-full cursor-pointer "
           ></div>
         )}
         {monthly ? (
           <div
-            className="absolute top-[472px] right-[50.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute top-[472px] right-[40.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         ) : (
           <div
-            className="absolute hidden top-[472px] right-[50.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute hidden top-[472px] right-[40.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         )}
         {monthly ? (
           <div
-            className="hidden absolute top-[472px] right-[45.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="hidden absolute top-[472px] right-[35.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         ) : (
           <div
-            className="absolute top-[472px] right-[45.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
+            className="absolute top-[472px] right-[35.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
             onClick={(e) => changeBilling(e)}
           ></div>
         )}
         {monthly ? (
-          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[70%] md:right-[65%] md:top-[285px] w-[10px] h-[10px] text-CoolGray">
+          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[60%] md:right-[65%] md:top-[285px] w-[10px] h-[10px] text-CoolGray">
             Monthly
           </div>
         ) : (
-          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[70%] md:right-[65%] md:top-[285px] w-[10px] h-[10px] text-MarineBlue">
+          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[60%] md:right-[65%] md:top-[285px] w-[10px] h-[10px] text-MarineBlue">
             Monthly
           </div>
         )}
         {monthly ? (
-          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[36%] md:right-[30%] md:top-[285px] w-[10px] h-[10px] text-MarineBlue">
+          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[26%] md:right-[30%] md:top-[285px] w-[10px] h-[10px] text-MarineBlue">
             Yearly
           </div>
         ) : (
-          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[36%] md:right-[30%] md:top-[285px] w-[10px] h-[10px] text-CoolGray">
+          <div className="absolute text-sm font-bold tracking-tighter top-[470px] right-[26%] md:right-[30%] md:top-[285px] w-[10px] h-[10px] text-CoolGray">
             Yearly
           </div>
         )}
