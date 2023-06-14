@@ -84,7 +84,7 @@ const Plans = () => {
                 className={
                   plan.name === customerInfo.plan.planName
                     ? "w-[300px] md:w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-PurplishBlue-300 border-[1px] border-PurplishBlue cursor-pointer flex md:flex-col bg-Magnolia space-y-12 hover:border-PurplishBlue"
-                    : "w-[300px] md:w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-slate-300 border-[1px] border-CoolGray cursor-pointer flex md:flex-col hover:bg-Alabaster space-y-12 hover:border-PurplishBlue"
+                    : "w-[300px] md:w-[400px] h-[80px] mt-3 ml-5 md:w-42 md:h-44 md:pl-5 md:mt-14 rounded-md border-slate-300 border-[1px] cursor-pointer flex md:flex-col hover:bg-Alabaster space-y-12 hover:border-PurplishBlue"
                 }
               >
                 <img
