@@ -38,7 +38,7 @@ const AddOns = () => {
   };
 
   return (
-    <div className="md:absolute bg-White mt-[105px] ml-3 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
+    <div className="md:absolute bg-White mt-[115px] ml-3 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
       <div className="pb-5 flex flex-col mt-[30px] md:mt-0">
         <div className="text-3xl md:text-4xl ml-3 md:ml-1 text-MarineBlue font-bold text-left">
           Pick add-ons
