@@ -7,7 +7,7 @@ import ThankYou from "./ThankYou";
 import SidePanel from "./SidePanel";
 
 const FormControl = () => {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
   const [stepOne, setStepOne] = useState(true);
   const [stepTwo, setStepTwo] = useState(false);
   const [stepThree, setStepThree] = useState(false);
