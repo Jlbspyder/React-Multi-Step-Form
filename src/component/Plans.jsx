@@ -112,7 +112,7 @@ const Plans = () => {
                   </div>
                 ) : (
                   <div className="flex flex-col">
-                    <div className="px-5 -mt-6 font-bold text-MarineBlue md:-ml-[19px] -mt-[35px] md:mt-1">
+                    <div className="px-5 font-bold text-MarineBlue md:-ml-[19px] -mt-[35px] md:mt-1">
                       {plan.name}
                     </div>
                     <div className="px-5 text-xs text-CoolGray md:-ml-[20px]">
@@ -129,7 +129,7 @@ const Plans = () => {
         </div>
 
         <div className="bg-Alabaster mt-7 w-[100%] h-10 rounded-md"></div>
-        {monthly ? (
+        {!monthly ? (
           <div
             className="absolute bg-MarineBlue top-[470px] right-[35%] md:right-[40%] md:top-[288px] w-8 h-4
         rounded-full cursor-pointer "
@@ -140,7 +140,7 @@ const Plans = () => {
         rounded-full cursor-pointer "
           ></div>
         )}
-        {monthly ? (
+        {!monthly ? (
           <div
             className="absolute top-[472px] right-[40.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
@@ -153,7 +153,7 @@ const Plans = () => {
             onClick={(e) => changeBilling(e)}
           ></div>
         )}
-        {monthly ? (
+        {!monthly ? (
           <div
             className="hidden absolute top-[472px] right-[35.5%] md:right-[44.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
