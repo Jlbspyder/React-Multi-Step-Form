@@ -12,7 +12,7 @@ const Summary = ({ goback }) => {
   }
 
   return (
-    <div className="md:absolute bg-White mt-[115px] ml-3 h-[400px] rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:-top-[60px] md:left-[500px]">
+    <div className="md:absolute bg-White mt-[115px] ml-10 h-[400px] rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:-top-[60px] md:left-[500px]">
       <div className="flex flex-col md:pl-8 pl-1 mt-[135px] ml-5 rounded-lg w-[400px] md:-mt-0">
         <div className="text-3xl -mt-24 md:text-4xl md:m-0 text-MarineBlue font-bold text-left">
           Finishing up

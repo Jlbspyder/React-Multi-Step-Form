@@ -66,7 +66,7 @@ const Plans = () => {
 
   return (
     <>
-      <div className="md:absolute bg-White mt-[115px] ml-3 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:top-[0] md:left-[520px]">
+      <div className="md:absolute bg-White mt-[115px] ml-10 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:top-[0] md:left-[520px]">
         <div className="mt-[40px] ml-[30px] md:-mt-16 md:ml-5 md:flex flex-col">
           <div className="text-3xl md:text-4xl text-MarineBlue font-bold text-left">
             Select your plan
