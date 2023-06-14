@@ -38,7 +38,7 @@ const AddOns = () => {
   };
 
   return (
-    <div className="md:absolute bg-White mt-[115px] ml-10 rounded-lg pt-1 md:mt-32 w-[330px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
+    <div className="md:absolute bg-White mt-[115px] ml-8 rounded-lg pt-1 md:mt-32 w-[350px] md:w-[450px] md:h-[100px] md:-top-[60px] md:left-[520px]">
       <div className="pb-5 flex flex-col mt-[30px] md:mt-0">
         <div className="text-3xl md:text-4xl ml-3 md:ml-1 text-MarineBlue font-bold text-left">
           Pick add-ons
@@ -51,13 +51,13 @@ const AddOns = () => {
             <label
               key={addOn.name}
               htmlFor={addOn.name}
-              className="w-[98%] md:w-[100%] h-[80px] bg-White rounded-md border-slate-300 border-[1px] border-PurplishBlue cursor-pointer hover:border-PurplishBlue hover:bg-Alabaster addon"
+              className="w-[90%] ml-3 md:w-[100%] h-[80px] bg-White rounded-md border-slate-300 border-[1px] cursor-pointer hover:border-PurplishBlue hover:bg-Alabaster addon"
             >
               <div className="flex flex-row justify-between">
                 <input
                   type="checkbox"
                   className="bg-White ml-5 mt-[20px] border-slate-300 
-                  border-[1px] border-CoolGray"
+                  border-[1px]"
                   id={addOn.name}
                   value={addOn.name}
                   checked={customerInfo.addOns?.some(
