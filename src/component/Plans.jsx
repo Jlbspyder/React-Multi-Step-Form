@@ -101,7 +101,7 @@ const Plans = () => {
                   checked={plan.name === customerInfo.plan.planName}
                   onChange={(e) => changePlan(e)}
                 />
-                {monthly ? (
+                {!monthly ? (
                   <div className="flex flex-col">
                     <div className="px-5 font-bold text-MarineBlue md:-ml-[19px] -mt-[30px] md:mt-5">
                       {plan.name}
