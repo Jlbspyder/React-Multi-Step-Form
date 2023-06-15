@@ -85,7 +85,7 @@ const Form = ({ formData, setFormData, errors }) => {
         <input
           type="text"
           value={formData.number}
-          autoComplete="number"
+          autoComplete="text"
           onChange={(e) => {
             setFormData({
               ...formData,
