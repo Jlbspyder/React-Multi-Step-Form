@@ -25,7 +25,7 @@ const Plans = () => {
     }));
   };
 
-  const changeBilling = (event) => {
+  const getBilling = (event) => {
     event.preventDefault();
     const currentPlan = customerInfo.plan.planName;
     const currentPlanInfo = plans.filter(
@@ -144,26 +144,26 @@ const Plans = () => {
           <div
             className="absolute top-[472px] right-[40.5%] md:right-[44.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
-            onClick={(e) => changeBilling(e)}
+            onClick={(e) => getBilling(e)}
           ></div>
         ) : (
           <div
             className="absolute hidden top-[472px] right-[40.5%] md:right-[40.4%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
-            onClick={(e) => changeBilling(e)}
+            onClick={(e) => getBilling(e)}
           ></div>
         )}
         {!monthly ? (
           <div
             className="hidden absolute top-[472px] right-[45.5%] md:right-[40.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
-            onClick={(e) => changeBilling(e)}
+            onClick={(e) => getBilling(e)}
           ></div>
         ) : (
           <div
             className="absolute top-[472px] right-[35.5%] md:right-[40.5%] md:top-[290.5px] w-[10px] h-[10px] bg-White 
         rounded-full cursor-pointer"
-            onClick={(e) => changeBilling(e)}
+            onClick={(e) => getBilling(e)}
           ></div>
         )}
         {monthly ? (
