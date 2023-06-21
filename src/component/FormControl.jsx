@@ -25,7 +25,7 @@ const FormControl = () => {
   const handleSubmit = (e) => {
     setFormErrors(validate(formData));
     setTimeOut(() => {
-    setFormErrors("")
+    setFormErrors({})
     }, 3000)
     setSubmit(true);
   };
