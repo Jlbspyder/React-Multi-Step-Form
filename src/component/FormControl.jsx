@@ -50,6 +50,9 @@ const FormControl = () => {
     } else if (!Regex.test(values.number)) {
       errors.number = "Please insert a valid number";
     }
+      setTimeout(() => {
+        setFormErrors({});
+      }, 3000);
     return errors;
   };
   
