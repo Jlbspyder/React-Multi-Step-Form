@@ -39,9 +39,6 @@ const FormControl = () => {
     const Regex = /^\+?[1-9][0-9]{7,14}$/;
     if (!values.name) {
       errors.name = "This field is required";
-      setTimeout(() => {
-        errors.name = "";
-      }, 3000);
     }
     if (!values.email) {
       errors.email = "This field is required";
