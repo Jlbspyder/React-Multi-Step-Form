@@ -24,6 +24,9 @@ const FormControl = () => {
 
   const handleSubmit = (e) => {
     setFormErrors(validate(formData));
+    setTimeOut(() => {
+      setFormErrors("")
+    }, 3000)
     setSubmit(true);
   };
   useEffect(() => {
